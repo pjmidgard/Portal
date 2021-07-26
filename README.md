@@ -1,9 +1,9 @@
 # Portal
 Portal
-4.17 v. aeszst
+4.17 v. zst
 
 
-Aestzst
+zst
 
 Compression
 
