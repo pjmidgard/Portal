@@ -4,14 +4,14 @@ import os
 import binascii
 namez = input("ul or for compress cl for extract for compress zst cld fo extract zst cldd? ")
 #@Author Jurijus pacalovas
-#class03917606322JurijusPacalovasmade.pdf compression:03917606322JurijusPacalovasmade.pdf
+#class03917606322JurijusPacalovasmade.pdf compression:03917606322JurijusPacalovasmade.pdf65536
 class compression:
     def cryptograpy_compression(self):
                 
                 self.name = "Written: Jurijus pacalovas Price Programf2.03 5 000 000 Euro cost Date: 21/07/2021 9:29 Deep 14.5 ERA"
                 if namez=="ul":
                     corridors=0
-                    cor=0
+                    cor=7
                     name = input("What is name of file? ")
                     namea="file.WhiteHall"
                     namem=""
@@ -132,16 +132,16 @@ class compression:
 
                                 corridors=corridors+1%256
                                 
-                                if corridors==0:
+                                if corridors==cor:
                                     cor=1
                                     
-                                if corridors==1:
+                                if corridors==cor:
                                     cor=3
                                     
-                                if corridors==2:
-                                    cor=5
-                                    
-                                if corridors==3:
+                                if corridors==cor:
+                                    cor=5     
+                                                                    
+                                if corridors==cor:
                                     cor=7
                                     corridors=0
                                       
@@ -247,7 +247,7 @@ class compression:
     def cryptograpy_unpack(self):                      
                  if namez=="cl":
                     corridors=0
-                    cor=0
+                    cor=7
                     name = input("What is name of file? ")
                     namea="file.WhiteHall"
                     namem=""
@@ -368,16 +368,16 @@ class compression:
 
                                 corridors=corridors+1%256
                                 
-                                if corridors==0:
+                                if corridors==cor:
                                     cor=1
                                     
-                                if corridors==1:
+                                if corridors==cor:
                                     cor=3
                                     
-                                if corridors==2:
+                                if corridors==cor:
                                     cor=5
                                     
-                                if corridors==3:
+                                if corridors==cor:
                                     cor=7
                                     corridors=0
                                       
