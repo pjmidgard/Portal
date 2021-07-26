@@ -133,7 +133,7 @@ class compression:
                                 corridors=corridors+1%256
                                 
                                 if corridors==cor:
-                                    cor=1
+                                    cor=corridors
                                     
                                 if corridors==cor:
                                     cor=3
@@ -369,7 +369,7 @@ class compression:
                                 corridors=corridors+1%256
                                 
                                 if corridors==cor:
-                                    cor=1
+                                    cor=corridors
                                     
                                 if corridors==cor:
                                     cor=3
