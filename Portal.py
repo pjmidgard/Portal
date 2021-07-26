@@ -16,11 +16,13 @@ class compression:
                     namea="file.WhiteHall"
                     namem=""
                     namema="?"
-                   
+                 
+                    assxw=0
                     blockw=5
                     blockw1=4
-                    assxw=0
-                    nameas="a"
+                    nameas=name
+                    nac=len(nameas)
+                    nameas=name+".bin"
                     
                     nac=len(nameas)
                     
@@ -249,15 +251,17 @@ class compression:
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
+                    
                     namea="file.WhiteHall"
                     namem=""
                     namema="?"
-                   
+                 
+                    assxw=0
                     blockw=5
                     blockw1=4
-                    assxw=0
-                    nameas="b"
-                    
+                    nameas=name
+                    nac=len(nameas)
+                    nameas=name[:nac-4]
                     nac=len(nameas)
                     
                     countraz=0
